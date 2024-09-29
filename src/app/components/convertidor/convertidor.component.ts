@@ -31,7 +31,7 @@ convertir() {
           this.total = this.cantidad
         )
         if(this.quiero === 'USD')(
-          this.total = this.cantidad * 1,27
+          this.total = this.cantidad * 1.27
         ) 
         if(this.quiero === 'EURO')(
           this.total = this.cantidad * 1.18
